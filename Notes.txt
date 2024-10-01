@@ -1,0 +1,27 @@
+--------------------------------------------------------------------
+                          Date 27/9/24
+--------------------------------------------------------------------
+
+1. Odd even using XOR and  AND
+2.Strings are immutable that means we can't cange the values of string,slow
+  if we change the value then it create a new place in SCP 
+  ex  String str = "aman"; //let add =100
+      str = str +"kumar";// here add is not 100 it is different
+
+3.StringBuffer -> StringBuffer is Thread Safe,Mutable,
+
+4. StringBuilder -> Not Thread Safe,Mutable,fastest  
+      
+5. compareTo-> return str1-str2 with the difference of unicode of the first different chars
+    equals-> return true or false
+    capacity-> return capacity of the StringBuffer or StringBuilder
+              default capacity characters is 16 and if try to insert extra chars the the size is 34 and after that according to length
+
+
+--------------------------------------------------------------------
+                          Date 01/10/24
+--------------------------------------------------------------------
+
+
+1.Scanner class
+  
