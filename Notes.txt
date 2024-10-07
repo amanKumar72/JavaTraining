@@ -24,4 +24,33 @@
 
 
 1.Scanner class
-  
+  next-> take input until the whitespace comes
+  nextLine-> take input until the nextline character comes i.e \n
+    
+
+
+--------------------------------------------------------------------
+                          Date 04/10/24
+--------------------------------------------------------------------
+
+1.No of .class FILES = no of classes in file 
+2. Conatructors -> default , parametersed , This keyword 
+3. Sigleton class-> only one reference for all objs 
+                    constructor should be prvate
+                    use methods for creating objs 
+                    the return type of method is ClassName and must be static 
+                    ex-> 
+                    class Car{
+                    static Car instance;
+                    private Car(){
+
+                    }
+                    public static Car getInstance(){
+                      if(instance == null){
+                        instance = new Car();
+                        }
+                        return instance;
+                    }
+                  }
+
+4.
