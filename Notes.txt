@@ -53,4 +53,33 @@
                     }
                   }
 
-4.
+
+
+
+--------------------------------------------------------------------
+                          Date 08/10/24
+--------------------------------------------------------------------
+
+1.Locale class --> 
+                  1.for defaukt values -> local.getDefault()
+                  2.creating obj->      Local l=new Local("hi","IN");//langguage , Country
+                                          Local l=Locale.US;//some predefined values
+                  3.NumberFormat nf = NumberFormat.getCurrencyInstance(locale);
+                  4.DateFormat df = DateFormat.getDateInstance(DateFormat.FULL, locale);
+                  5. nf.format(value);df.format(new Date());       
+
+
+
+--------------------------------------------------------------------
+                          Date 15/10/24
+--------------------------------------------------------------------
+
+1.Functions->
+    1.no return type and no parameter 
+
+    2.no return type and with parameter
+
+    3.return type and no parameter
+
+    4.return type and with parameter
+      
