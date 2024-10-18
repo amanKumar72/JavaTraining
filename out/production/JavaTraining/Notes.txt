@@ -1,0 +1,85 @@
+--------------------------------------------------------------------
+                          Date 27/9/24
+--------------------------------------------------------------------
+
+1. Odd even using XOR and  AND
+2.Strings are immutable that means we can't cange the values of string,slow
+  if we change the value then it create a new place in SCP 
+  ex  String str = "aman"; //let add =100
+      str = str +"kumar";// here add is not 100 it is different
+
+3.StringBuffer -> StringBuffer is Thread Safe,Mutable,
+
+4. StringBuilder -> Not Thread Safe,Mutable,fastest  
+      
+5. compareTo-> return str1-str2 with the difference of unicode of the first different chars
+    equals-> return true or false
+    capacity-> return capacity of the StringBuffer or StringBuilder
+              default capacity characters is 16 and if try to insert extra chars the the size is 34 and after that according to length
+
+
+--------------------------------------------------------------------
+                          Date 01/10/24
+--------------------------------------------------------------------
+
+
+1.Scanner class
+  next-> take input until the whitespace comes
+  nextLine-> take input until the nextline character comes i.e \n
+    
+
+
+--------------------------------------------------------------------
+                          Date 04/10/24
+--------------------------------------------------------------------
+
+1.No of .class FILES = no of classes in file 
+2. Conatructors -> default , parametersed , This keyword 
+3. Sigleton class-> only one reference for all objs 
+                    constructor should be prvate
+                    use methods for creating objs 
+                    the return type of method is ClassName and must be static 
+                    ex-> 
+                    class Car{
+                    static Car instance;
+                    private Car(){
+
+                    }
+                    public static Car getInstance(){
+                      if(instance == null){
+                        instance = new Car();
+                        }
+                        return instance;
+                    }
+                  }
+
+
+
+
+--------------------------------------------------------------------
+                          Date 08/10/24
+--------------------------------------------------------------------
+
+1.Locale class --> 
+                  1.for defaukt values -> local.getDefault()
+                  2.creating obj->      Local l=new Local("hi","IN");//langguage , Country
+                                          Local l=Locale.US;//some predefined values
+                  3.NumberFormat nf = NumberFormat.getCurrencyInstance(locale);
+                  4.DateFormat df = DateFormat.getDateInstance(DateFormat.FULL, locale);
+                  5. nf.format(value);df.format(new Date());       
+
+
+
+--------------------------------------------------------------------
+                          Date 15/10/24
+--------------------------------------------------------------------
+
+1.Functions->
+    1.no return type and no parameter 
+
+    2.no return type and with parameter
+
+    3.return type and no parameter
+
+    4.return type and with parameter
+      
